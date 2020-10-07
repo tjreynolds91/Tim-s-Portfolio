@@ -1,0 +1,354 @@
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fixed-top {
+    text-align: center;
+
+}
+
+.jumbotron {
+    background-image: url(https://apod.nasa.gov/apod/image/2010/m42HSO_gonzalez_960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: salmon;
+    
+}
+
+#display-4 {
+
+    font-size: 110px;
+    font-weight: 375;
+    color: tomato;
+}
+
+.container1 {
+    border: 2px solid red;
+    width: 100%;
+
+    
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 4em;
+}
+
+.linkedIn {
+    background-color:transparent;
+    border: 2px solid blue;
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+}
+
+.github {
+    background-color:transparent;
+    border: 2px solid blue;
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+
+
+
+.parent {
+    border: 2px solid red;
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin: auto;
+    margin-top: 4em;
+}
+
+.profileImage {
+    background-color:transparent;
+    border: 2px solid blue;
+    height: 300px;
+    width: 25%;
+    
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+}
+
+.myImage {
+    width: 75%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+
+.profileBio {
+    background-color: white;
+    border: 2px solid blue;
+    height: 300px;
+    width: 25%;
+    text-align: center;
+}
+
+.container4{
+    border: 2px solid red;
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 4em;
+    
+
+}
+
+.skillHead {
+    border: 2px solid yellow;
+    width: 75%;
+    height: 125px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+h5 {
+    font-size: 75px;
+    font-weight: bolder;
+    color: tomato;
+
+}
+
+.skills {
+    border: 2px solid blue;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+ 
+}
+
+.html5{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.js{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.css{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.firebase{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.bs{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.wireframe{
+    width: 33.3%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container5{
+    border: 2px solid red;
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 4em;
+    
+
+}
+
+.projHead {
+    border: 2px solid yellow;
+    width: 75%;
+    height: 125px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+h5 {
+    font-size: 75px;
+    font-weight: bolder;
+    color: tomato;
+
+}
+
+.proj {
+    border: 2px solid blue;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+ 
+}
+
+.api2{
+    width: 50%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.api1{
+    width: 50%;
+    border:2px solid green;
+    height: 50%; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.static{
+    width: 50%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.creature{
+    width: 50%;
+    border:2px solid green;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.projImg {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+footer {
+    background-color: turquoise;
+}
+
+#formdisplay {
+    display: flex;
+    flex-direction: column;
+}
