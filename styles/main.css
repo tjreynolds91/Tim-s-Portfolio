@@ -8,7 +8,7 @@ body{
 
 .fixed-top {
     text-align: center;
-
+    
 }
 
 .jumbotron {
@@ -367,13 +367,14 @@ h5 {
 
 footer {
     background-color: rgb(181, 204, 202);
+   
 }
 
 #foot {
     text-align: center;
 }
 
-#formdisplay {
+/* #formdisplay {
     display: flex;
     flex-direction: column;
-}
+} */
