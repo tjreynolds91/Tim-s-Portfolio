@@ -334,10 +334,30 @@ footer {
 
 /* .formSpree {
   display: flex;
-  flex-direction: column;
-} */
+  /* flex-wrap: wrap; */
+/* border: 2px solid blue; */
 
 /* #formdisplay {
   display: flex;
   flex-direction: column;
 } */
+
+form {
+  /* border: 2px solid blue; */
+  width: 25%;
+  margin-left: 33.3%;
+  padding-left: 25px;
+}
+
+.formInfo {
+  /* border: 2px solid green; */
+  width: 25%;
+}
+
+label {
+  color: tomato;
+}
+
+input {
+  border-radius: 25px;
+}
