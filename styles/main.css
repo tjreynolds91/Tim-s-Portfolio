@@ -1,380 +1,343 @@
-
-body{
-    background-color: wheat;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-color: wheat;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .fixed-top {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .jumbotron {
-    background-image: url(https://apod.nasa.gov/apod/image/2010/m42HSO_gonzalez_960.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    /* background-color: salmon; */
-    
+  background-image: url(https://apod.nasa.gov/apod/image/2010/m42HSO_gonzalez_960.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /* background-color: salmon; */
 }
 
 #display-4 {
-
-    font-size: 110px;
-    font-weight: 375;
-    color: tomato;
-
+  font-size: 110px;
+  font-weight: 375;
+  color: tomato;
 }
 
-
 #slogan {
-    color: lightblue;
+  color: lightblue;
 }
 
 .container1 {
-    /* border: 2px solid red; */
-    width: 100%;
+  /* border: 2px solid red; */
+  width: 100%;
 
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    margin: auto;
-    margin-top: 4em;
+  margin: auto;
+  margin-top: 4em;
 }
 
 .linkedIn {
-    background-color:transparent;
-    /* border: 2px solid blue; */
-    height: 100px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    
-    
-    
-    
+  background-color: transparent;
+  /* border: 2px solid blue; */
+  height: 100px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .github {
-    background-color:transparent;
-    /* border: 2px solid blue; */
-    height: 100px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-   
+  background-color: transparent;
+  /* border: 2px solid blue; */
+  height: 100px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
-
-
-
 .parent {
-    /* border: 2px solid red; */
-    width: 100%;
-    
+  /* border: 2px solid red; */
+  width: 100%;
 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 
-    margin: auto;
-    margin-top: 4em;
+  margin: auto;
+  margin-top: 4em;
 }
 
 .profileImage {
-    background-color:transparent;
-    /* border: 2px solid blue; */
-    height: 400px;
-    width: 25%;
-    
+  background-color: transparent;
+  /* border: 2px solid blue; */
+  height: 400px;
+  width: 25%;
 }
 
 .aboutMe {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .myImage {
-    width: 80%;
-    height: 90%;
-    border-radius: 100%;
+  width: 80%;
+  height: 90%;
+  border-radius: 100%;
 }
-
 
 .profileBio {
-    background-color:transparent;
-    /* border: 2px solid blue; */
-    height: 500px;
-    width: 25%;
-    text-align: center;
+  background-color: transparent;
+  /* border: 2px solid blue; */
+  height: 500px;
+  width: 25%;
+  text-align: center;
 }
 
-.container4{
-    /* border: 2px solid red; */
-    width: 100%;
-    
+.container4 {
+  /* border: 2px solid red; */
+  width: 100%;
 
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 
-    margin: auto;
-    margin-top: 4em;
-    
-
+  margin: auto;
+  margin-top: 4em;
 }
 
 .skillHead {
-    /* border: 2px solid yellow; */
-    width: 75%;
-    height: 125px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    
-    
-    
-    
+  /* border: 2px solid yellow; */
+  width: 75%;
+  height: 125px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 h5 {
-    font-size: 75px;
-    font-weight: bolder;
-    color: tomato;
-
+  font-size: 75px;
+  font-weight: bolder;
+  color: tomato;
 }
 
 .skills {
-    /* border: 2px solid blue; */
-    width: 75%;
-    height: 500px;
-    margin: auto;
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
- 
+  /* border: 2px solid blue; */
+  width: 75%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
-.html5{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-
-
+.html5 {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.js{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%; 
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-
+.js {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.css{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-
+.css {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.firebase{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-
-
+.firebase {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.bs{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-
+.bs {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.wireframe{
-    width: 33.3%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
+.wireframe {
+  width: 33.3%;
+  /* border:2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
+.container5 {
+  /* border: 2px solid red; */
+  width: 100%;
 
-.container5{
-    /* border: 2px solid red; */
-    width: 100%;
-    
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-
-    margin: auto;
-    margin-top: 4em;
-    
-
+  margin: auto;
+  margin-top: 4em;
 }
 
 .projHead {
-    /* border: 2px solid yellow; */
-    width: 75%;
-    height: 125px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    
-    
-    
-    
+  /* border: 2px solid yellow; */
+  width: 75%;
+  height: 125px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 h5 {
-    font-size: 75px;
-    font-weight: bolder;
-    color: tomato;
-
+  font-size: 75px;
+  font-weight: bolder;
+  color: tomato;
 }
 
 .proj {
-    /* border: 2px solid blue; */
-    width: 50%;
-    height: 500px;
-    margin: auto;
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
- 
+  /* border: 2px solid blue; */
+  width: 75%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.api2{
-    width: 50%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-
-
+.blueBadge {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-
-.api1{
-    width: 50%;
-    /* border:2px solid green; */
-    height: 50%; 
-    margin: auto;
-    display: flex;
-    justify-content: center;
-
-
+.redBadge {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-
-.static{
-    width: 50%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-
-
+.api2 {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+.api1 {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-.creature{
-    width: 50%;
-    /* border:2px solid green; */
-    height: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+.static {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-
+.creature {
+  width: 26%;
+  /* border: 2px solid green; */
+  height: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .projImg {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 45px 10px 45px;
 }
 
-
-
-
-
-
 .card-img-top {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background: transparent;
-    border: none;
-    
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: transparent;
+  border: none;
 }
-
 
 .bigBottom {
-    height: 200px;
+  height: 200px;
 }
 
-
 footer {
-    background-color: rgb(181, 204, 202);
-   
+  background-color: rgb(181, 204, 202);
 }
 
 #foot {
-    text-align: center;
+  text-align: center;
 }
 
+/* .formSpree {
+  display: flex;
+  flex-direction: column;
+} */
+
 /* #formdisplay {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 } */
