@@ -22,14 +22,14 @@ body {
 }
 
 #display-4 {
-  font-size: 55px;
+  font-size: 65px;
   text-size-adjust: inherit;
-  font-weight: 375;
+  font-weight: 380;
   color: tomato;
   width: 100%;
 }
 
-#slogan {
+.slogan {
   color: lightblue;
   text-size-adjust: inherit;
 }
@@ -263,6 +263,18 @@ h5 {
   margin: auto;
   display: flex;
   justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.projOpt {
+  /* border: 2px solid yellow; */
+  width: 30%;
+  height: 5%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: ;
+  display: flex;
+  justify-content: center;
+  color: rgb(181, 204, 202);
 }
 
 h5 {
@@ -449,6 +461,7 @@ label {
 
 input {
   border-radius: 25px;
+  text-align: center;
 }
 .container2 {
   width: 100%;
@@ -483,4 +496,14 @@ input {
 }
 input {
   width: 100%;
+}
+
+.submit {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 235%;
+}
+
+#message {
+  text-align: center;
 }
