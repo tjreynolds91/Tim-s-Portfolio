@@ -257,7 +257,7 @@ h5 {
 }
 
 .projHead {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 100%;
   height: 125px;
   /* margin-left: 10%;
@@ -267,7 +267,7 @@ h5 {
   /* flex-wrap: wrap; */
 }
 .projOpt {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 100%;
   height: 5%;
   /* margin: auto; */
