@@ -625,7 +625,8 @@ footer {
 .github,
 .twitter,
 .linkedin,
-.codepen {
+.codepen,
+.stackoverflow {
   -webkit-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s;
@@ -645,6 +646,10 @@ footer {
 
 .codepen:hover {
   color: #517fa4;
+}
+
+.stackoverflow:hover {
+  color: #e67e22;
 }
 
 footer p {
