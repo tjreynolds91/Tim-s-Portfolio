@@ -61,6 +61,20 @@
   body {
     font-size: 16px;
   }
+header {
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/taisiia-shestopal-xzApo_gwpwE-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
+    url(img/taisiia-shestopal-xzApo_gwpwE-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/taisiia-shestopal-xzApo_gwpwE-unsplash.jpg);
+  background-size: cover;
+  
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
   section {
     padding: 30px 0;
   }
