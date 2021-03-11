@@ -203,7 +203,7 @@ header {
     url(img/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-size: auto;
   background-position: center;
   height: 100vh;
